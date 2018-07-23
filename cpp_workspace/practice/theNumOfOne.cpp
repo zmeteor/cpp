@@ -32,7 +32,9 @@ int solution1(unsigned int n)
       int number = 0;
 
       for(unsigned int i = 1; i <= n; ++ i)
+      {
             number += NumberOf1(i);
+      }
 
       return number;
 }
